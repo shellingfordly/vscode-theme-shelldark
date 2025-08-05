@@ -1,7 +1,7 @@
 {
   "name": "vscode-theme-shelldark",
   "displayName": "vscode-theme-shelldark",
-  "description": "This is a vscode theme",
+  "description": "shellingfordly's vscode theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.102.0"
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "shellingfordly",
-        "uiTheme": "hc-black",
-        "path": "./themes/shellingfordly-color-theme.json"
+        "label": "Shell Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shell_dark.json"
       }
     ]
   }

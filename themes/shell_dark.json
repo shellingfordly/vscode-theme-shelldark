@@ -1,0 +1,148 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+	"name": "shellingfordly",
+    "include": "./dark_plus.json",
+	"colors": {
+		// 活动栏
+		"activityBar.activeBorder": "#0078D4", // 当前激活图标的边框色
+		"activityBar.background": "#0E0E0E", // 左侧图标栏背景色
+		"activityBar.border": "#2B2B2B", // 左侧图标栏边框色
+		"activityBar.foreground": "#D7D7D7", // 图标默认颜色
+		"activityBar.inactiveForeground": "#868686", // 非激活图标颜色
+		"activityBarBadge.background": "#0078D4", // 角标背景（如通知数）
+		"activityBarBadge.foreground": "#FFFFFF", // 角标文字颜色
+		// 编辑器
+		"editor.background": "#0A0A0A", // 代码编辑区背景
+		"editor.findMatchBackground": "#9E6A03", // 搜索匹配高亮
+		"editor.foreground": "#CCCCCC", // 代码文字颜色
+		"editorGroup.border": "#FFFFFF17", // 编辑器组边框色
+		"editorGroupHeader.tabsBackground": "#181818", // 编辑器组标题栏背景
+		"editorGroupHeader.tabsBorder": "#2B2B2B", // 编辑器组标题栏边框色
+		"editorGutter.addedBackground": "#2EA043", // 新增行标记色（Git）
+		"editorGutter.deletedBackground": "#F85149", // 删除行标记色
+		"editorGutter.modifiedBackground": "#0078D4", // 修改行标记色
+		"editorLineNumber.activeForeground": "#CCCCCC", // 当前行行号颜色
+		"editorLineNumber.foreground": "#6E7681", // 普通行号颜色
+		"editorOverviewRuler.border": "#010409", // 概览标尺边框色
+		"editorWidget.background": "#0E0E0E", // 代码提示/悬浮窗口背景
+		// 侧边栏
+		"sideBar.background": "#0E0E0E", // 文件资源管理器背景
+		"sideBar.border": "#2B2B2B", // 侧边栏边框色
+		"sideBar.foreground": "#CCCCCC", // 文件列表文字颜色
+		"sideBarSectionHeader.background": "#0F0F0F", // 分类标题背景（如"OPEN EDITORS"）
+		"sideBarSectionHeader.border": "#2B2B2B", // 分类标题边框色
+		"sideBarSectionHeader.foreground": "#CCCCCC", // 分类标题文字颜色
+		"sideBarTitle.foreground": "#CCCCCC", // 侧边栏标题文字颜色
+		// 面板
+		"panel.background": "#0A0A0A", // 底部面板（终端/输出）背景
+		"panel.border": "#2B2B2B", // 面板边框色
+		"panelInput.border": "#2B2B2B", // 面板输入框边框色
+		"panelTitle.activeBorder": "#0078D4", // 激活面板标题边框色
+		"panelTitle.activeForeground": "#CCCCCC", // 激活面板标题文字颜色
+		"panelTitle.inactiveForeground": "#9D9D9D", // 非激活面板标题文字颜色
+		// 终端
+		"terminal.foreground": "#DDDDDD", // 终端文字颜色
+		"terminal.tab.activeBorder": "#0078D4", // 激活终端标签页边框
+		// 状态栏
+		"statusBar.background": "#0E0E0E", // 底部状态栏背景
+		"statusBar.border": "#2B2B2B", // 状态栏边框色
+		"statusBar.debuggingBackground": "#0078D4", // 调试模式状态栏颜色
+		"statusBar.debuggingForeground": "#FFFFFF", // 调试模式状态栏文字颜色
+		"statusBar.focusBorder": "#0078D4", // 状态栏聚焦元素边框色
+		"statusBar.foreground": "#CCCCCC", // 状态栏文字颜色
+		"statusBar.noFolderBackground": "#1F1F1F", // 无打开文件夹时状态栏背景
+		"statusBarItem.focusBorder": "#0078D4", // 状态栏项聚焦边框色
+		"statusBarItem.prominentBackground": "#6E768166", // 突出显示状态栏项背景色
+		"statusBarItem.remoteBackground": "#0078D4", // 远程连接状态指示器背景
+		"statusBarItem.remoteForeground": "#FFFFFF", // 远程连接状态指示器文字颜色
+		// 全局样式
+		"foreground": "#CCCCCC", // 全局默认文字颜色
+		"focusBorder": "#0078D4", // 聚焦元素边框色（如输入框）
+		"errorForeground": "#F85149", // 错误提示文字颜色
+		// 按钮
+		"button.background": "#0078D4", // 主按钮背景色
+		"button.border": "#FFFFFF12", // 主按钮边框色
+		"button.foreground": "#FFFFFF", // 主按钮文字颜色
+		"button.hoverBackground": "#026EC1", // 按钮悬停状态色
+		"button.secondaryBackground": "#313131", // 次要按钮背景色
+		"button.secondaryForeground": "#CCCCCC", // 次要按钮文字颜色
+		"button.secondaryHoverBackground": "#3C3C3C", // 次要按钮悬停状态色
+		// 输入框
+		"input.background": "#313131", // 输入框背景色
+		"input.border": "#3C3C3C", // 输入框边框色
+		"input.foreground": "#CCCCCC", // 输入框文字颜色
+		"input.placeholderForeground": "#989898", // 输入框占位符文字颜色
+		"inputOption.activeBackground": "#2489DB82", // 输入选项激活时背景色
+		"inputOption.activeBorder": "#2488DB", // 输入选项激活时边框色
+		"checkbox.background": "#313131", // 复选框背景色
+		"checkbox.border": "#3C3C3C", // 复选框边框色
+		// 下拉菜单
+		"dropdown.background": "#313131", // 下拉菜单背景色
+		"dropdown.border": "#3C3C3C", // 下拉菜单边框色
+		"dropdown.foreground": "#CCCCCC", // 下拉菜单文字颜色
+		"dropdown.listBackground": "#1F1F1F", // 下拉菜单列表背景色
+		// 菜单
+		"menu.background": "#1F1F1F", // 菜单背景色
+		"menu.selectionBackground": "#0078d4", // 菜单选中项背景色
+		// tab
+		"tab.activeBackground": "#1F1F1F", // 当前激活标签页背景色
+		"tab.activeBorder": "#1F1F1F", // 当前激活标签页边框色
+		"tab.activeBorderTop": "#0078D4", // 当前激活标签页顶部边框色
+		"tab.activeForeground": "#FFFFFF", // 当前激活标签页文字颜色
+		"tab.selectedBorderTop": "#6caddf", // 当前选中标签页顶部边框色
+		"tab.border": "#2B2B2B", // 标签页边框色
+		"tab.hoverBackground": "#1F1F1F", // 标签页悬停背景色
+		"tab.inactiveBackground": "#181818", // 非激活标签页背景色
+		"tab.inactiveForeground": "#9D9D9D", // 非激活标签页文字颜色
+		"tab.unfocusedActiveBorder": "#1F1F1F", // 非聚焦状态下当前激活标签页边框色
+		"tab.unfocusedActiveBorderTop": "#2B2B2B", // 非聚焦状态下当前激活标签页顶部边框色
+		"tab.unfocusedHoverBackground": "#1F1F1F", // 非聚焦状态下标签页悬停背景色
+		// 通知/弹窗
+		"notifications.background": "#1F1F1F", // 通知弹窗背景
+		"notifications.border": "#2B2B2B", // 通知边框色
+		"notifications.foreground": "#CCCCCC", // 通知文字颜色
+		"notificationCenterHeader.background": "#1F1F1F", // 通知中心标题栏背景
+		"notificationCenterHeader.foreground": "#CCCCCC", // 通知中心标题栏文字颜色
+		"quickInput.background": "#222222", // 命令面板背景
+		"quickInput.foreground": "#CCCCCC", // 命令面板文字颜色
+		// 标题栏
+		"titleBar.activeBackground": "#0E0E0E", // 窗口激活时标题栏背景
+		"titleBar.activeForeground": "#CCCCCC", // 窗口激活时标题栏文字颜色
+		"titleBar.border": "#2B2B2B", // 标题栏边框色
+		"titleBar.inactiveBackground": "#1F1F1F", // 窗口非激活时标题栏背景
+		"titleBar.inactiveForeground": "#9D9D9D", // 窗口非激活时标题栏文字颜色
+		// chat
+		"chat.slashCommandBackground": "#26477866", // 聊天命令背景色
+		"chat.slashCommandForeground": "#85B6FF", // 聊天命令文字颜色
+		"chat.editedFileForeground": "#E2C08D", // 聊天编辑文件文字颜色
+		// 徽章
+		"badge.background": "#616161", // 徽章背景（如扩展更新提示）
+		"badge.foreground": "#F8F8F8", // 徽章文字颜色
+		// 其他
+		"peekViewEditor.background": "#1F1F1F", // Peek View 编辑器背景
+		"peekViewEditor.matchHighlightBackground": "#BB800966", // Peek View 编辑器匹配高亮背景
+		"peekViewResult.background": "#1F1F1F", // Peek View 结果列表背景
+		"peekViewResult.matchHighlightBackground": "#BB800966", // Peek View 结果列表匹配高亮背景
+		"pickerGroup.border": "#3C3C3C", // 选择器组边框色（如颜色选择器）
+		"settings.dropdownBackground": "#313131", // 设置下拉菜单背景色
+		"settings.dropdownBorder": "#3C3C3C", // 设置下拉菜单边框色
+		"settings.headerForeground": "#FFFFFF", // 设置标题文字颜色
+		"settings.modifiedItemIndicator": "#BB800966", // 设置修改项指示器颜色
+		"debugToolBar.background": "#181818", // 调试工具栏背景色
+		"icon.foreground": "#CCCCCC", // 图标默认颜色
+		"keybindingLabel.foreground": "#CCCCCC", // 快捷键标签文字颜色
+		"descriptionForeground": "#9D9D9D", // 描述文字颜色
+		"textLink.foreground": "#4daafc", // 超链接文字颜色
+		"progressBar.background": "#0078D4", // 进度条颜色
+		"welcomePage.tileBackground": "#2B2B2B", // 欢迎页面磁贴背景
+		"welcomePage.progress.foreground": "#0078D4", // 欢迎页面进度条颜色
+		"widget.border": "#313131", // 小部件（如代码提示）边框色
+		"textBlockQuote.background": "#2B2B2B", // 引用块背景色
+		"textBlockQuote.border": "#616161", // 引用块边框色
+		"textCodeBlock.background": "#2B2B2B", // 代码块背景色
+		"textLink.activeForeground": "#4daafc", // 激活状态超链接文字颜色
+		"textPreformat.foreground": "#D0D0D0", // 预格式化文本颜色
+		"textPreformat.background": "#3C3C3C", // 预格式化文本背景色
+		"textSeparator.foreground": "#21262D", // 分隔符文字颜色
+	},
+}
